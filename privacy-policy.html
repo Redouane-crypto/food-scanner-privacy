@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy — Food Scanner AI</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#5a5a5a; --card:#f5f7fb; --accent:#0f9d8c; --border:#e2e5ea;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#121212; --fg:#f2f2f2; --muted:#b6b6b6; --card:#1c1e22; --accent:#3ddbc4; --border:#2c2f34;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#121212; --fg:#f2f2f2; --muted:#b6b6b6; --card:#1c1e22; --accent:#3ddbc4; --border:#2c2f34;
+  }
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:32px 20px 60px;}
+  h1{font-size:1.7rem; margin-bottom:4px;}
+  .updated{color:var(--muted); font-size:0.9rem; margin-bottom:28px;}
+  h2{font-size:1.15rem; margin-top:34px; color:var(--accent);}
+  p, li{color:var(--fg); font-size:0.98rem;}
+  ul{padding-inline-start:22px;}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:14px;
+    padding:16px 18px; margin:14px 0;
+  }
+  a{color:var(--accent);}
+  .divider{border:none; border-top:1px solid var(--border); margin:44px 0;}
+  .lang-note{color:var(--muted); font-size:0.85rem;}
+  [dir="rtl"]{text-align:right;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy — Food Scanner AI</h1>
+  <div class="updated">Last updated: September 25, 2026</div>
+
+  <p>This Privacy Policy explains how <strong>Food Scanner AI</strong> ("the app", "we") handles information when you use the app. We built this app to be as privacy-respecting as possible: we do not require an account, we do not collect personal identifiers, and we do not run ads.</p>
+
+  <h2>1. Information We Collect</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Product photos:</strong> When you use "Scan by Image," the app sends the photo(s) you take or choose (front and/or back of a product) for AI-based analysis.</li>
+      <li><strong>Barcode numbers:</strong> When you scan a barcode, the app sends that number to look up product information.</li>
+      <li>We do <strong>not</strong> collect your name, email, location, or any account information, because the app does not have a login system.</li>
+    </ul>
+  </div>
+
+  <h2>2. How We Use This Information</h2>
+  <ul>
+    <li><strong>Barcode lookups</strong> are sent to the Open Food Facts, Open Beauty Facts, and Open Products Facts APIs (open, community-run product databases) to retrieve product details such as ingredients and nutrition facts.</li>
+    <li><strong>Product photos</strong> are sent to our own backend server, which forwards them to Google's Gemini API for AI analysis, then returns the result to your device. Our backend does not permanently store the photos or the analysis results — they are processed and discarded.</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+  <p>Because the app relies on external services to function, some data passes through:</p>
+  <ul>
+    <li><a href="https://world.openfoodfacts.org/privacy" target="_blank" rel="noopener">Open Food Facts / Open Beauty Facts / Open Products Facts</a> — receives barcode numbers only.</li>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google (Gemini API)</a> — receives product photos for the AI analysis feature only.</li>
+  </ul>
+  <p class="lang-note">These third parties process data under their own privacy policies, linked above.</p>
+
+  <h2>4. Data Stored on Your Device</h2>
+  <p>Your <strong>Recent Scans</strong> and <strong>Favorites</strong> lists are stored locally on your device only, using standard app storage. They are never uploaded to our servers. Uninstalling the app or clearing its storage permanently deletes this data.</p>
+
+  <h2>5. Permissions We Request</h2>
+  <ul>
+    <li><strong>Camera:</strong> to scan barcodes and take product photos.</li>
+    <li><strong>Photos/Gallery:</strong> to let you choose an existing photo instead of taking a new one.</li>
+    <li><strong>Internet:</strong> required to look up products and run AI analysis.</li>
+  </ul>
+
+  <h2>6. Children's Privacy</h2>
+  <p>Food Scanner AI is not directed at children under 13, and we do not knowingly collect information from children.</p>
+
+  <h2>7. Security</h2>
+  <p>All network requests use encrypted connections (HTTPS). While no method of transmission is 100% secure, we take reasonable steps to protect the information that passes through the app.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this policy as the app evolves. Changes will be posted on this page with an updated date above.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>Questions about this policy or your data? Email us at <a href="mailto:red.elyou.devapp@gmail.com">red.elyou.devapp@gmail.com</a>.</p>
+
+  <hr class="divider">
+
+  <div dir="rtl" lang="ar">
+    <h1>سياسة الخصوصية — Food Scanner AI</h1>
+    <div class="updated">آخر تحديث: 25 شتنبر 2026</div>
+
+    <p>توضح هاد السياسة كيفاش تطبيق <strong>Food Scanner AI</strong> ("التطبيق"، "احنا") كيتعامل مع المعلومات ملي كتستعمل التطبيق. بنينا هاد التطبيق باش يحترم الخصوصية قدر الإمكان: بلا حساب مطلوب، بلا جمع معلومات شخصية، وبلا إعلانات.</p>
+
+    <h2>1. المعلومات اللي كنجمعو</h2>
+    <div class="card">
+      <ul>
+        <li><strong>صور المنتج:</strong> ملي كتستعمل ميزة "Scan by Image"، التطبيق كيبعث الصورة أو الصور اللي التقطتي أو اخترتي (وجه أو ظهر المنتج) للتحليل بالذكاء الاصطناعي.</li>
+        <li><strong>رقم الباركود:</strong> ملي كتسكانير باركود، التطبيق كيبعث الرقم باش يجيب معلومات المنتج.</li>
+        <li><strong>ماكنجمعوش</strong> اسمك، إيميلك، موقعك، أو أي معلومة حساب، لأن التطبيق ماعندوش نظام تسجيل دخول.</li>
+      </ul>
+    </div>
+
+    <h2>2. كيفاش كنستعملو هاد المعلومات</h2>
+    <ul>
+      <li><strong>البحث بالباركود</strong> كيتبعث لـ Open Food Facts، Open Beauty Facts، و Open Products Facts (قواعد بيانات مفتوحة ومجتمعية) باش نجيبو تفاصيل المنتج بحال المكونات والمعلومات الغذائية.</li>
+      <li><strong>صور المنتج</strong> كتتبعث للسيرفر الخاص بينا، اللي كيبعثها بدورو لـ Gemini API ديال Google للتحليل، ومن بعد كيرجع النتيجة لجهازك. السيرفر ديالنا ماكيخزنش الصور أو النتائج بشكل دائم — كيتعالجو ويتمسحو.</li>
+    </ul>
+
+    <h2>3. خدمات طرف ثالث</h2>
+    <p>بما أن التطبيق كيعتمد على خدمات خارجية باش يخدم، شي بيانات كتمر عبر:</p>
+    <ul>
+      <li><a href="https://world.openfoodfacts.org/privacy" target="_blank" rel="noopener">Open Food Facts / Open Beauty Facts / Open Products Facts</a> — كيتوصل ليها غير رقم الباركود.</li>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google (Gemini API)</a> — كيتوصل ليها غير صور المنتج، لميزة التحليل بالذكاء الاصطناعي فقط.</li>
+    </ul>
+
+    <h2>4. البيانات المخزنة فجهازك</h2>
+    <p>قائمة <strong>Recent Scans</strong> و <strong>Favorites</strong> مخزنين محلياً فجهازك فقط. مايتبعثوش أبداً لسيرفراتنا. حذف التطبيق أو مسح بياناته كيمسح هاد المعلومات نهائياً.</p>
+
+    <h2>5. الصلاحيات اللي كنطلبوها</h2>
+    <ul>
+      <li><strong>الكاميرا:</strong> باش نسكانيرو الباركود ونلتقطو صور المنتج.</li>
+      <li><strong>الصور/المعرض:</strong> باش تختار صورة موجودة بدل ما تلتقط وحدة جديدة.</li>
+      <li><strong>الإنترنت:</strong> ضروري باش نجيبو معلومات المنتج وندير التحليل بالذكاء الاصطناعي.</li>
+    </ul>
+
+    <h2>6. خصوصية الأطفال</h2>
+    <p>Food Scanner AI ماشي موجه للأطفال تحت 13 عام، وماكنجمعوش معلومات من الأطفال بعلمنا.</p>
+
+    <h2>7. الأمان</h2>
+    <p>كل طلبات الشبكة كتستعمل اتصال مشفر (HTTPS). رغم أنه ماكاينش وسيلة نقل آمنة 100%، كنديرو خطوات معقولة باش نحميو المعلومات اللي كتمر عبر التطبيق.</p>
+
+    <h2>8. تغييرات على هاد السياسة</h2>
+    <p>يمكن نحدثو هاد السياسة مع تطور التطبيق. أي تغيير غادي يتنشر فهاد الصفحة مع تاريخ محدث فالأعلى.</p>
+
+    <h2>9. تواصل معانا</h2>
+    <p>عندك سؤال على هاد السياسة أو على بياناتك؟ بعث ليا إيميل على <a href="mailto:red.elyou.devapp@gmail.com">red.elyou.devapp@gmail.com</a>.</p>
+  </div>
+
+</div>
+</body>
+</html>
